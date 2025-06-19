@@ -1,2 +1,10 @@
 server:
   port: 5502
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5500/eureka
+
+  instance:
+    prefer-ip-address: true
